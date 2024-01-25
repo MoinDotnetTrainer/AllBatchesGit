@@ -19,5 +19,11 @@ namespace GithubExamples
             z = x + y;
             Console.WriteLine("add is :" + z);
         }
+        public static void sub()
+        {
+            int x = 45, y = 56, z;
+            z = x - y;
+            Console.WriteLine("sub is :" + z);
+        }
     }
 }
